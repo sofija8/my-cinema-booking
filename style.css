@@ -119,7 +119,7 @@ p.text span {
 
 @media(max-width: 550px) {
     body {
-        height: 120vh;
+        height: 100vh;
     }
     
     .movie-container {
