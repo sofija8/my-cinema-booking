@@ -116,3 +116,22 @@ p.text span {
     color: #66e0ff;
 }
 
+
+@media(max-width: 550px) {
+    body {
+        height: 120vh;
+    }
+    
+    .movie-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .movie-container label {
+        margin-bottom: 8px;
+    }
+}
+
